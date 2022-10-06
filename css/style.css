@@ -9,16 +9,16 @@ body {
 
 table {
     border-collapse: collapse;
-    border-bottom: 1px solid;
-    border-right: 1px solid;
+    border-bottom: 1px solid #949494;
+    border-right: 1px solid #949494;
     background-color: white;
 }
 
 thead tr th {
-    border: 1px solid;
+    border: 1px solid #949494;
 }
 
-tbody tr td {
-    border-left: 1px solid;
-    border-right: 1px solid;
+tbody tr td:not(:last-child) {
+    border-left: 1px solid #949494;
+    border-right: 1px solid #949494;
 }
