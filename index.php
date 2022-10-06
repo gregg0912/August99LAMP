@@ -14,30 +14,31 @@
 
     	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
         <script src="js/index.js"></script>
+        <link href="css/style.css" rel="stylesheet">
         <title>AUGUST99 - LAMP</title>
     </head>
     <body>
         <div class="container">
             <div id="liveAlertPlaceholder"></div>
 
-            <div class="row align-items-center">
-                <div class="col-sm-3 ">
+            <div class="add-button-div row align-items-center">
+                <div class="d-flex flex-row-reverse">
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addBookModal">
                         Add
                     </button>
                 </div>
             </div>
             <div class="row align-items-center">
-                <table class="table" id="books">
+                <table id="books">
                     <thead>
                         <tr>
-                            <th scope="col">TITLE</th>
-                            <th scope="col">ISBN</th>
-                            <th scope="col">AUTHOR</th>
-                            <th scope="col">PUBLISHER</th>
-                            <th scope="col">YEAR PUBLISHED</th>
-                            <th scope="col">CATEGORY</th>
-                            <th scope="col"></th>
+                            <th class="text-center" scope="col">TITLE</th>
+                            <th class="text-center" scope="col">ISBN</th>
+                            <th class="text-center" scope="col">AUTHOR</th>
+                            <th class="text-center" scope="col">PUBLISHER</th>
+                            <th class="text-center" scope="col">YEAR PUBLISHED</th>
+                            <th class="text-center" scope="col">CATEGORY</th>
+                            <th class="text-center" scope="col"></th>
                         </tr>
                     </thead>
                     <tbody></tbody>

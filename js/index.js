@@ -25,13 +25,13 @@ $(document).ready(function()
                         let edit_button = "<button type='button' class='btn btn-secondary edit-book' data-id='"+ book.id +"'>Edit</button>";
                         let delete_button = "<button type='button' class='btn btn-secondary delete-book' data-id='"+ book.id +"'>Delete</button>";
                         rows += "<tr>"+
-                                "<td>"+ book.title +"</td>"+
-                                "<td>"+ book.isbn +"</td>"+
-                                "<td>"+ book.author +"</td>"+
-                                "<td>"+ book.publisher +"</td>"+
-                                "<td>"+ book.year_published +"</td>"+
-                                "<td>"+ book.category +"</td>"+
-                                "<td>"+
+                                "<td class='text-center'>"+ book.title +"</td>"+
+                                "<td class='text-center'>"+ book.isbn +"</td>"+
+                                "<td class='text-center'>"+ book.author +"</td>"+
+                                "<td class='text-center'>"+ book.publisher +"</td>"+
+                                "<td class='text-center'>"+ book.year_published +"</td>"+
+                                "<td class='text-center'>"+ book.category +"</td>"+
+                                "<td class='d-flex justify-content-evenly'>"+
                                     edit_button+
                                     delete_button+
                                 "</td>"+
